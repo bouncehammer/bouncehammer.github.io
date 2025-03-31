@@ -1,0 +1,218 @@
+<html>
+    <head>
+        <meta http-equiv = 'Content-Type' content = 'text/html; charset=UTF-8' />
+        <meta http-equiv = 'Content-Style-Type' content = 'text/css' />
+        <meta http-equiv = 'refresh' content = '1024;URL=https://libsisimai.org/' />
+        <title>bounceHammer has been EOL&#39;ed on February 29, 2016</title>
+        <meta name = 'keywords' content = "bounceHammer,バウンスメール,エラーメール,オープンソース,email,bounce,Open-Source,Sisimai" />
+        <meta name = 'description' content = "
+            *BSD/Linuxで動くメール配信システムに依存しないバウンスメール解析専用のシステムでした。
+            An email bounce handling system that is independent of email delivery systems, works on *BSD/Linux.
+        " />
+        <style type = 'text/css'>
+            <!--
+            *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}:where([hidden]:not([hidden='until-found'])){display:none!important}:where(html){-webkit-text-size-adjust:none;color-scheme:dark light;tab-size:2;scrollbar-gutter:stable}:where(html:has(dialog:modal[open])){overflow:clip}@media (prefers-reduced-motion:no-preference){:where(html:focus-within){scroll-behavior:smooth}}:where(body){line-height:1.5;font-family:system-ui,sans-serif;-webkit-font-smoothing:antialiased}:where(button){all:unset}:where(input,button,textarea,select){font:inherit;color:inherit}:where(textarea){resize:vertical;resize:block}:where(button,label,select,summary,[role='button'],[role='option']){cursor:pointer}:where(:disabled){cursor:not-allowed}:where(label:has(>input:disabled),label:has(+input:disabled)){cursor:not-allowed}:where(a){color:inherit;text-underline-offset:.2ex}:where(ul,ol){list-style:none}:where(img,svg,video,canvas,audio,iframe,embed,object){display:block}:where(img,picture,svg,video){max-inline-size:100%;block-size:auto}:where(p,h1,h2,h3,h4,h5,h6){overflow-wrap:break-word}:where(h1,h2,h3){line-height:calc(1em + 0.5rem);text-wrap:balance}:where(hr){border:none;border-block-start:1px solid;color:inherit;block-size:0;overflow:visible}:where(dialog){border:none;background:none;inset:unset;max-width:unset;max-height:unset}:where(dialog:not([open])){display:none!important}:where(:focus-visible){outline:3px solid CanvasText;box-shadow:0 0 0 5px Canvas;outline-offset:1px}:where(:focus-visible,:target){scroll-margin-block:8vh}:where(.visually-hidden:not(:focus-within,:active)){clip-path:inset(50%)!important;height:1px!important;width:1px!important;overflow:hidden!important;position:absolute!important;white-space:nowrap!important;border:0!important}
+            body {
+                background-color: #433d3c;
+                color: #eaedf7;
+                display: grid;
+                place-items: center;
+            }
+            div.container {
+                width: 75%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0 auto;
+            }
+            div.row {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 20px 0;
+            }
+            .row > div.f1u  { flex: 1 1  6.25%; }
+            .row > div.f2u  { flex: 1 1 12.50%; }
+            .row > div.f3u  { flex: 1 1 18.75%; }
+            .row > div.f4u  { flex: 1 1 25.00%; }
+            .row > div.f5u  { flex: 1 1 31.25%; }
+            .row > div.f6u  { flex: 1 1 37.50%; }
+            .row > div.f7u  { flex: 1 1 43.75%; }
+            .row > div.f8u  { flex: 1 1 50.00%; }
+            .row > div.f9u  { flex: 1 1 56.25%; }
+            .row > div.f10u { flex: 1 1 62.50%; }
+            .row > div.f11u { flex: 1 1 68.75%; }
+            .row > div.f12u { flex: 1 1 75.00%; }
+            .row > div.f13u { flex: 1 1 81.25%; }
+            .row > div.f14u { flex: 1 1 87.50%; }
+            .row > div.f15u { flex: 1 1 93.75%; }
+            .row > div.f16u { flex: 1 1 100.0%; }
+            div.eol {
+                width: 100%;
+                color: #f8f8fb;
+                font-weight: bold;
+                background-color: #0d0015;
+                text-align: center;
+            }
+            div.copyright {
+                width: 100%;
+                color: #f8f8fb;
+                font-weight: bold;
+                background-color: #0d0015;
+                text-align: center;
+            }
+            div.copyright a {
+                text-decoration: none;
+            }
+
+            h1 { font-size: 32px; }
+            p.description {
+                margin: 25px 5px 25px 0;
+                font-size: 17px;
+            }
+
+            span.bHa {
+                font-family: 'Century Gothic';
+                font-weight: normal;
+                color: inherit !important;
+                letter-spacing: 1px;
+            }
+            span.bHz {
+                font-family: 'Century Gothic';
+                font-weight: bold;
+                color: inherit !important;
+                letter-spacing: 1px;
+            }
+            .jp16:before { content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAFdSURBVHjapJM/SwNBFMR/e3c5E2MMiNgEtAgiCmIjqF9AFCwEW7G3sbTxC1jaWNhqZUCxF0SwSBU48V+aaGVjE/VOcnfJ7lqYXGIiSJJpFvbNzNs3vBVaa/qBAGxgqH52gxDwLCCttX7rqbsQYwaQ7GOCpAWY7bdaSiqXV1Ru8qAU8cV5BleXEXbHlKYFIKXENJs+H4dHfJ7nEAhA8JW/Jrh/ZGRvN+JIKQEwAMIwjArV0gvu8Qmi7MN7CGUfUQ7wcqcEt3fNBOsaCyAIAhKJxE/huURQfMBoi0bhUi0+MTA3S0MTGfi+HxFjmQzCsNG1aks8CjCwxiciXkNjtBvYM9MMb24hlYdSLkp5SOWSWt8gvrTQYdDxAoDRg31iU5N4ZxcgFcm1FdI72784rZqs4zi6WziOo4GsBYS1Wo1CodDLIoUCSAMZINWl2AVeRT1q+6+N/AcSCEW/3/l7AEcJvRY+/EcCAAAAAElFTkSuQmCC); }
+            .jp24:before { content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAHdSURBVHja1JbBahNRFIa/O3MzSVpJFZWCWuJCESrdVCqCiyL6FiKkIIivIYi4LHThQsQXKH2HQl1KoV0JQq2L6MJMjMbJOHPPceEMFp1JWsgs/OEsBs49//nvf+6da1SVKuFRMSonMIAFGkBtyrUTYGSBU6oaVtK9MWc8YLbCHZr1AFvFJGU1rc0/jDGlya77mWh7h+TgAwB24RIzq7fxL16YRIAB2mmaHvi+X5gYbb9h8Oo1kv7AkOc4jN+g9eA+zXt3iptyDmvtZXuU7Z8xePee/vo6JAlQQ0n+dEhEf2MDf36eYGmxVIEFEJFCgu9bW6RfPuExA0SgmeYMQsS3zU3OFhDkNcsVqBK/3UO/DhHS4n0mId7dR5MEU6udUIEqabdLengINEusjDG2DgUN5jW9UgLPo7Z4FXE/wcmRcFkI4kYE165ggmA8QZnJc50OxgtQGYG4LAREUIkx4tFa64wdU2+cyY1bK5x/9hyjIDJAZYjKEJEBiOPck6c0764Wrp1scobWozXqK8sMXrxktLsHItSXrtN6/JDGzRsTDxpAOwxDPRac+x3HQBiGCrQnKvjb+BPeRVggUVV6vV4Vt2ligDlgATg95eJ94GP+R6vnhk8RKRCb//5V8WsAkbk++0w2A6UAAAAASUVORK5CYII=); }
+            .uk16:before { content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAJJSURBVHjapJNdSJNRGMd/Z3u3OTXXhx8xjRLDFWIk0jAk6WYYfaAZSUWGZkFdRNRFYAYFXhkI2gpKqISC1IsIUiKIchUEUQiuj4uiMT8m0wbNr+n2vu/p4l2K3Yn/m3Pg8Pye8/wf/kJKyWokACuQnjxXojgwowCOwPW2iS37y3k0bOfJwwHmYzFePK5n7Oxl0FRyH9zicGM3CZOFBhccypMox2tJdWZnK0Bay/AGmr+McmJvKUXbaul79hmTzYJ9x3bQdEw2C2V7XOzLUdmVZ2PWvZvm1lcAaQpg/vY9xL2NRdRMvqHUlYmzoRw9oREPjICqoic0qtIiFGVmECp20+kd4IPPD2AWQMFMcOSnxWZDavqyIcfOXARVJ7fLu9w4s4nEwgLpmzdtVQB+HW0kNcOBFo3Cv6VICWYTSEmw6hSYBOjGo7LOwdz0lHEHiMVimCciaNEpRLIWqSMUxWCpKgiBEAIJqI4M5tLtS4Cs++3kZGUlK5cUcFciEwkKBl//t3xBeHIS3KWYAEo87biruxiKWkh568N/447RWZdI3fAlMG8l5Z2PT00deOq6KfHcBjAA+YVO+p6eo8zXy/P+r9R9tCcbCQQCgIMHOuh3llFx2kNn/jjFhWuXAN6rFay/66XtZZjG9zrh0KjxVasCNgsAs9N/OHnkJq0/HLjOH+NadmjRg7jW00tnWOPKQGRxzEH/EOM7XUhNI+of4nckCEDThRaCl2qor66E/p64ABxALrBmhVmYBsYEYE4GybxCgAbExWrj/HcACIPUyGtYcDcAAAAASUVORK5CYII=); }
+            .uk24:before { content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAQfSURBVHja1JZdbJNlFMd/b1va9X03ugGDsVRYoqgJII6NCCjimJuwkUAYbmEZKIqEmMxoQBwGTIwSRV2EgA4YcAGRIB8BBDaBMAGHBj9QHGQITAZky7qVtuv6tmvfj8eLFrYr8GJceJLn5jnnOf/zP/mfnEcSQvAwzcJDtocOIAE2IAkYNMC5NaDXBiT7v9nvTy0v4cLFNr5YV4fPFwDs/eIMDhxajre8FIBhu/dSMrcasParS2Pw8HSWFj/K+J/rkUaOZERVZZoNUGKXmuk5eJSJxQVs3b6YuiN/0trakSBnAAKbVUKZPh0Am1VixoyxiQZYAUHm6BHkZ0LK1ctYF5bizJkAVZWKBbDVuiYRc8gENtaS1H6bl0tzGf9UFh5PNx6PH48niBCgd3Whd3YiBHg8QTo6/Hh8YR4fk0GRuIXz919wznwRe84EamsbAWwWgJP1F9h1YxCdTzyNumc/4eMNzJo5jsVLXkDTrKhqFCFAqCoiHEYIUNUoMYtM2XNu8lsasUYipFYuIZCcxrYtZ9iz52yfijTN4HpzC59818oPo6bQc/4PvNVfM26UzMqqIkKhXkBgqiqmqgKCUKiXN8dZGXPueyw52bgWL+D0Tzd5b/lumppuYBhSvJ0Aum7S06Ph93ezY98d5Ldn87wcRP2tCff0qayrXogpwAgGATAFbF+Vh+71YS98A5/DxbmGv9m0/hgAaWkymha9J9PRdwKhVkeSgwcNtbdkTlxFBw7fX/sSRHtjDE1VsmwAnlkFOIcMweju/k8C9xTk3ddvdbmIJHLZAAxdR2trwwgEBmTCzFAI0+HoA0ivO4FTlh/4sP3JxwDIvHL9gbGRcBjS0+IAz+SuRtclgsEIABs3L+OV8lz0Ti/qmXPYMzPQsrMRptnXpi6VMaPT6N53GHtmBntvWqlcthmAwYOd2O30l6mEYZggBrFqTRmLynMJHTtJ55wFXDv7F+kvbU1wN+MHyB67gstXPLiKZ3Bny06m1XxI9Vt5JI9wo+sGmmbpAzCMKFlZbhoaV7Pq3QK8q9eirv2MptkLKTlFAhyEacZZiPjds5M/5uiZW7h3fsXQV8sorqulvnwYU/MnoWlaH0Bh4UTqG1aSmy7RXlSGdu0fduQtpXTTJTparmKaAtGPgQBMUxCJdDN/7gZWVh0k6fUKhu+qYeipOjYmX+K1iil9AOs3lGFraKBt3iJC2ZNYIefxeU0j1mgURUlBURxIElhkGYssI0mgKA4URUFWFLZtPU5R/pe0pmTg/vEI1hSZil+/vacirevTDYRPnKZlbgUfHG3nVvOphEsCYoCB3+cj0BufTqfPRywWTtRnAHD+/EWmTV7DR2vnM+/9d5AP1cPZY5oEuIBHgNQBXjgB4Pbdjea4OxMDaDoQlf73v4p/BwAgir62/ncsQQAAAABJRU5ErkJggg==); }
+            -->
+        </style>
+    </head>
+    <body>
+    <div class = 'eol'>
+        <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+        HAS BEEN EOL'ED ON FEBRUARY 29, 2016.
+    </div>
+
+    <div class = 'container'>
+        <div class = 'row'>
+            <div class = 'f6u'>
+                <img id = 'HeadLogo' src = 'bH-b1.png' alt = "bounceHammer has been EOL'ed on February 29, 2016" width = '405' />
+            </div>
+
+            <div class = 'f10u'>
+                <h1>
+                    <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+                </h1>
+                <hr class = 'two' />
+                <p class = 'description'>
+                    <span title = 'bounceHammer'>
+                        <span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+                    have been downloaded and used by many users and companies since the first release of the software on March 2010,
+                    and 
+                    <strong style = 'color: #f6ad49;'>
+                        <a href = '/eol'>has been EOL'ed: End Of Life on February 29, 2016.</a>
+                    </strong>
+                    After the EOL of <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>,
+                    the software could be continued to use on your system, however, we strongly recommend migrating to 
+                    <span title = 'Sisimai: The successor to bounceHammer'><span class = 'bHz'>Sisimai</span></span>:
+                    The successor of <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+                    (more faster, more higher precision of analysis).
+                    <strong style = 'color: #f6ad49;'>Thanks for using
+                        <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span> for a long time.
+                    </strong>
+                </p>
+                <p class = 'description'>
+                    2010年3月にオープンソースソフトウェアとして公開して以来、
+                    多くのユーザ様・企業様にダウンロードしご利用いただきました
+                    <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>は<strong style = 'color: #f6ad49;'>
+                        <a href = '/eol'>2016年2月29日(月)を持ちまして製品ライフサイクルの終了(EOL: End Of Life)</a>
+                    </strong>となりました。
+                    製品ライフサイクル終了後も既にインストール済の
+                    <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>は継続してご使用いただけますが、
+                    後継として開発されたより高精度で高速な
+                    <span title = 'Sisimai: The successor to bounceHammer'><span class = 'bHz'>Sisimai</span></span>(シシマイ)への移行をお勧めいたします。
+                    <strong style = 'color: #f6ad49;'>
+                        長きにわたり<span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+                        をご使用いただき誠に有り難う御座いました。
+                    </strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class = 'container'>
+        <div class = 'row'>
+            <div class = 'f10u'>
+                <h2 style = 'text-align: right;'>
+                    <span title = 'Sisimai: The successor to bounceHammer'><span class = 'bHz'>Sisimai</span></span>:
+                    The Successor of <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+                </h2>
+                <hr class = 'two' />
+                <p class = 'description'>
+                    In the summer of 2014,
+                    <strong style = 'color: #f6ad49;'>Sisimai</strong>
+                    was developed in Perl as a successor to
+                    <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+                    to solve a number of issues and was released on
+                    <a href = 'https://libsisimai.org/' target = 'new' title = 'The successor to bounceHammer' style = 'text-decoration: none;'>
+                        <strong style = 'color: #f8fbf8;'>libsisimai.org</strong>
+                    </a>.
+                    In 2016, a Ruby version was released, and in 2024 it celebrated its 10th anniversary.
+                </p>
+                <p class = 'description'>
+                    In February 2025,
+                    <strong style = 'color: #f6ad49;'>Sisimai,</strong>
+                    which analyzes 110 million bounce emails worldwide every month, was joined by a
+                    <a href = 'https://pkg.go.dev/libsisimai.org/sisimai/v5' target = 'new' style = 'text-decoration: none;'>
+                        <strong style = 'color: #89c3eb;'>Go version</strong>
+                    </a>
+                    that operates 12 times faster than
+                    <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+                    and has absolutely no external module dependencies.
+                    <br />
+                </p>
+                <p class = 'description'>
+                    2014年の夏にいくつもの問題を解決するため
+                    <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>
+                    の後継者として<strong style = 'color: #f6ad49;'>Sisimai</strong> (シシマイ)がPerlで開発され
+                    <a href = 'https://libsisimai.org/' target = 'new' title = 'The successor to bounceHammer' style = 'text-decoration: none;'>
+                        <strong style = 'color: #f8fbf8;'>libsisimai.org</strong>
+                    </a>
+                    で公開となりました。
+                    2016年にはRuby版が登場し、2024年にはリリースから10周年を迎えました。
+                </p>
+                <p class = 'description'>
+                    2025年2月、世界で毎月1.1億通のバウンスメールを解析する
+                    <strong style = 'color: #f6ad49;'>Sisimai</strong>に
+                    <span title = 'bounceHammer'><span class = 'bHa'>bounce</span><span class = 'bHz'>Hammer</span></span>の
+                    12倍高速に動作し、外部モジュールに全く依存しない
+                    <a href = 'https://pkg.go.dev/libsisimai.org/sisimai/v5' target = 'new' style = 'text-decoration: none;'>
+                        <strong style = 'color: #89c3eb;'>Go版</strong>
+                    </a>
+                    が加わりました。
+                </p>
+            </div>
+            <div class = 'f6u'>
+                <img id = '' src = 'https://libsisimai.org/static/images/logo/sisimai-logomark-b02.png' width = '450'/>
+            </div>
+        </div>
+    </div>
+
+    <div class = 'copyright'>
+        BOUNCEHAMMER.JP | Copyright 2009-2025 <a href = 'https://cubicroot.jp/' target = 'new'>Cubicroot Co. Ltd.</a> All Rights Reserved.<br />
+    </div>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQ2Q2Y6LJ6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FQ2Q2Y6LJ6');
+    </script>
+    </body>
+</html>
+
